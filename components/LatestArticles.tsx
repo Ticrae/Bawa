@@ -24,7 +24,7 @@ export default function LatestArticles({
   return (
     <section className="py-16 px-4 sm:px-6 lg:px-8" id="articles">
       <div className="max-w-7xl mx-auto">
-        <div className="flex items-center justify-between mb-12">
+        <div className="flex items-center justify-between gap-5 mb-12">
           <div>
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-2">
               Latest Articles
@@ -43,11 +43,9 @@ export default function LatestArticles({
                     increaseContent();
                   }
                 }}
-                className="cursor-pointer"
+                className="border py-3 px-4 rounded-2xl hover:cursor-pointer hover:bg-gray-900 hover:text-white"
               >
-                {contentCount >= (posts?.length ?? 0)
-                  ? "Show Less"
-                  : "Show More"}
+                {contentCount >= (posts?.length ?? 0) ? "Less" : "More"}
               </button>
             )}
           </div>

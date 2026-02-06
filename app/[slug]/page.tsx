@@ -40,13 +40,13 @@ export default async function PostPage({
           </a>
         </div>
         <section>
-          <div>
+          <div className="mb-8">
             <Image
               src={builder.image(post.mainImage).width(300).height(300).url()}
               alt={post?.mainImage?.alt}
               width={300}
               height={300}
-              className={`hover:scale-105 rounded-2xl transition-transform duration-300 w-125`}
+              className={`rounded-2xl transition-transform duration-300 w-125`}
             />
           </div>
           <div>

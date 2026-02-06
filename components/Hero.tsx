@@ -40,9 +40,6 @@ export default function Hero() {
                 Start Reading
                 <ArrowRight className="ml-2 h-5 w-5" />
               </button>
-              <button className="border py-3 px-4 rounded-2xl cursor-pointer">
-                Learn More
-              </button>
             </div>
           </div>
 

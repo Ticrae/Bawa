@@ -87,7 +87,7 @@ export default function Navbar() {
               {/* Navigation */}
               <nav className="hidden md:flex items-center space-x-8">
                 <button
-                  onClick={() => handleNavClick("#")}
+                  onClick={() => handleNavClick("#about")}
                   className="text-gray-700 hover:text-gray-900 hover:cursor-pointer hover:translate-x-0.5
                transition-colors"
                 >
