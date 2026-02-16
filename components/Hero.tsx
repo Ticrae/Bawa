@@ -25,12 +25,16 @@ export default function Hero() {
               Welcome to Black At Western Alumni
             </div>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6">
-              Discover stories, thinking, and expertise
+              Our Mission
             </h1>
             <p className="text-lg text-gray-600 mb-8">
-              Stay updated with the latest insights on technology, design,
-              business, and innovation. Join our community of forward-thinking
-              readers.
+              The Black at Western Alumni (BAWA) association at Western
+              University is a transformative force dedicated to fostering a
+              vibrant, supportive, and empowering community for Black students
+              and alumni. Through mentorship, networking opportunities,
+              community engagement and advocacy. BAWA strives to strengthen the
+              Black student and graduate experience, deepen connections with
+              London’s Black community, and celebrate Black excellence
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <button
@@ -47,9 +51,9 @@ export default function Hero() {
           <div className="relative order-1 md:order-2">
             <div className="rounded-2xl overflow-hidden shadow-2xl">
               <Image
-                src="https://images.unsplash.com/photo-1683701251422-912fe98f2b5e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjB0ZWNobm9sb2d5JTIwd29ya3NwYWNlfGVufDF8fHx8MTc3MDEwMDMxN3ww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+                src="/bawa.jpeg"
                 alt="Modern workspace"
-                className="w-full h-100 object-cover"
+                className="w-full h-100 "
                 width={400}
                 height={400}
               />
