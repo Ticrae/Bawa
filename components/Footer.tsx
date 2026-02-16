@@ -15,25 +15,19 @@ export default function Footer() {
             </p>
             <div className="flex space-x-4">
               <a
-                href="#"
-                className="hover:text-white hover:translate-0.5 transition-colors"
-              >
-                <Facebook className="h-5 w-5" />
-              </a>
-              <a
-                href="#"
+                href="https://x.com/blackatwestern?s=11"
                 className="hover:text-white hover:translate-0.5 transition-colors"
               >
                 <Twitter className="h-5 w-5" />
               </a>
               <a
-                href="#"
+                href="https://instagram.com/blackatwesternalumni"
                 className="hover:text-white hover:translate-0.5 transition-colors"
               >
                 <Instagram className="h-5 w-5" />
               </a>
               <a
-                href="#"
+                href="https://www.linkedin.com/company/black-at-western-alumni/"
                 className="hover:text-white hover:translate-0.5 transition-colors"
               >
                 <Linkedin className="h-5 w-5" />
@@ -51,12 +45,15 @@ export default function Footer() {
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-white transition-colors">
+                <a href="#about" className="hover:text-white transition-colors">
                   About Us
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-white transition-colors">
+                <a
+                  href="#articles"
+                  className="hover:text-white transition-colors"
+                >
                   Articles
                 </a>
               </li>
@@ -66,7 +63,9 @@ export default function Footer() {
 
         {/* Bottom Bar */}
         <div className="border-t border-gray-800 pt-8 text-center text-gray-400">
-          <p>&copy; {currentYear} Utibe Ukobo. All rights reserved.</p>
+          <p>
+            &copy; {currentYear} Black At Western Alumni. All rights reserved.
+          </p>
         </div>
       </div>
     </footer>

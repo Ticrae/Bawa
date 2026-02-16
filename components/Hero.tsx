@@ -34,7 +34,7 @@ export default function Hero() {
               and alumni. Through mentorship, networking opportunities,
               community engagement and advocacy. BAWA strives to strengthen the
               Black student and graduate experience, deepen connections with
-              London’s Black community, and celebrate Black excellence
+              London’s Black community, and celebrate Black excellence.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <button
