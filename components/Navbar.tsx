@@ -56,7 +56,7 @@ export default function Navbar() {
                           onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
                           className="block p-2 text-gray-700 hover:bg-gray-100 rounded"
                         >
-                          Articles
+                          About
                         </a>
                       </li>
                       <li>
@@ -65,7 +65,7 @@ export default function Navbar() {
                           className="block p-2 text-gray-700 hover:bg-gray-100 rounded"
                           onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
                         >
-                          About
+                          Articles
                         </a>
                       </li>
                     </ul>
@@ -97,13 +97,13 @@ export default function Navbar() {
                   onClick={() => handleNavClick("#articles")}
                   className="text-gray-700 hover:text-gray-900 hover:cursor-pointer hover:translate-x-0.5 transition-colors"
                 >
-                  Articles
+                  About
                 </button>
                 <button
                   onClick={() => handleNavClick("#about")}
                   className="text-gray-700 hover:text-gray-900 hover:cursor-pointer hover:translate-x-0.5 transition-colors"
                 >
-                  About
+                  Articles
                 </button>
               </nav>
 
